@@ -3,7 +3,7 @@
 <!DOCTYPE html >
 <html>
 <head>
-<meta charset=UTF-8">
+<meta charset="UTF-8">
 <title>index.jsp</title>
 <style type="text/css">
 	@keyframes xxx{
@@ -26,6 +26,14 @@
 </style>
 </head>
 <body>
-<h1> Virtual Tomcat V8.0 Test</h1>
+<h1 id="tomcat"> Virtual Tomcat V8.0 Test</h1>
+
+<script type="text/javascript">
+	tomcat.onclick = function(){
+		alert("Tomcat Click...");
+	}
+
+</script>
+
 </body>
 </html>
