@@ -27,6 +27,7 @@
 </head>
 <body>
 <h1 id="tomcat"> Virtual Tomcat V8.0 Test</h1>
+<h1> update </h1>
 
 <script type="text/javascript">
 	tomcat.onclick = function(){
